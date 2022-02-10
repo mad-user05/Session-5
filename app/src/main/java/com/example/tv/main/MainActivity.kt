@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         call.enqueue(object : Callback<All> {
             override fun onResponse(call: Call<All>, response: Response<All>) {
                 Log.d("BLOOP2", response.body().toString())
-
             }
 
             override fun onFailure(call: Call<All>, t: Throwable) {

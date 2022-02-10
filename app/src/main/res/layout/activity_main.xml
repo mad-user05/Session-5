@@ -175,6 +175,21 @@
                         android:layout_marginLeft="12dp"
 
                         android:src="@drawable/aaaa"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaa"/>
+
+
 
                 </LinearLayout>
             </HorizontalScrollView>
