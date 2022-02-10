@@ -74,13 +74,16 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
+                        android:onClick="look"
+
                         android:layout_marginLeft="12dp"
 
-                        android:src="@drawable/a"/>
+                        android:src="@drawable/a" />
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -88,6 +91,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaa"/>
 
@@ -95,18 +99,21 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/a"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaaa"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -114,6 +121,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaa"/>
 
@@ -143,16 +151,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="horizontal" >
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="200dp"
-                        android:layout_marginLeft="12dp"
 
-                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:onClick="look"
+
+                        android:layout_marginLeft="12dp"
+                        android:src="@drawable/a" />
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -160,6 +171,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaa"/>
 
@@ -167,18 +179,21 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/a"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaaa"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -186,6 +201,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaa"/>
 
@@ -217,12 +233,14 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/a"/>
 
@@ -230,6 +248,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -237,18 +256,21 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaaa"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/a"/>
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aa"/>
 
@@ -256,6 +278,7 @@
                         android:layout_width="150dp"
                         android:layout_height="200dp"
                         android:layout_marginLeft="12dp"
+                        android:onClick="look"
 
                         android:src="@drawable/aaa"/>
 
