@@ -26,8 +26,7 @@ class MainActivity : AppCompatActivity() {
         call.enqueue(object : Callback<All> {
             override fun onResponse(call: Call<All>, response: Response<All>) {
                 Log.d("BLOOP2", response.body().toString())
-                val result: ModelMovie = response.body() as ModelMovie
-               //img_card_img.toString() = result.images.toString()
+
             }
 
             override fun onFailure(call: Call<All>, t: Throwable) {

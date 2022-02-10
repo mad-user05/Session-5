@@ -39,7 +39,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/video"
                         android:padding="15sp"
-                        android:text="Название"
+                        android:text="The Magicians"
                         android:textColor="@color/white"
                         android:textSize="25dp"
                         android:textStyle="bold" />
@@ -61,16 +61,63 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/tv_opis"
                         android:padding="15sp"
-                        android:text="years"
+                        android:text="2018"
                         android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
-
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/rv"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/tv_loook"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/tv_year" />
+                        android:layout_below="@id/ll"
+                        android:padding="15sp"
+                        android:text="Кадры"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="20dp"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/r"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+
+                                android:src="@drawable/e"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+
+                                android:src="@drawable/e"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+
+                                android:src="@drawable/r"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+
+                                android:src="@drawable/e"/>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -94,8 +141,6 @@
                 android:layout_below="@id/tv_look" />
 
 
-
-
             <TextView
                 android:id="@+id/tv_epiz"
                 android:layout_width="wrap_content"
@@ -107,11 +152,54 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_sec"
+            <HorizontalScrollView
+                android:layout_below="@id/tv_epiz"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tv_epiz" />
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/t"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/q"/>
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/t"/>
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/q"/>
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/q"/>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
         </RelativeLayout>
     </ScrollView>
 

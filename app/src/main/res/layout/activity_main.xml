@@ -61,11 +61,67 @@
                 android:textColor="@color/white"
                 android:textSize="30dp" />
 
-            <androidx.recyclerview.widget.RecyclerView
+            <HorizontalScrollView
                 android:id="@+id/rv"
+                android:layout_below="@id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/textView2" />
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaaa"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaa"/>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
 
             <TextView
                 android:id="@+id/textView3"
@@ -77,12 +133,51 @@
                 android:textColor="@color/white"
                 android:textSize="30dp" />
 
-            <androidx.recyclerview.widget.RecyclerView
+            <HorizontalScrollView
                 android:id="@+id/rv2"
+                android:layout_below="@id/textView3"
                 android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                android:layout_height="match_parent"
-                android:layout_below="@id/textView3" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaaa"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/textView4"
@@ -93,12 +188,66 @@
                 android:textColor="@color/white"
                 android:textSize="30dp" />
 
-            <androidx.recyclerview.widget.RecyclerView
+            <HorizontalScrollView
                 android:id="@+id/rv3"
+                android:layout_below="@id/textView4"
                 android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                android:layout_height="match_parent"
-                android:layout_below="@id/textView4" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaaa"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/a"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aa"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="12dp"
+
+                        android:src="@drawable/aaa"/>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
         </RelativeLayout>
     </ScrollView>
 
